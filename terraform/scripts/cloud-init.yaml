@@ -4,7 +4,7 @@ users:
     sudo: ALL=(ALL) NOPASSWD:ALL
     shell: /bin/bash
     ssh_authorized_keys:
-      - <YOUR_PUBLIC_KEY>
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMyHh+KoWPXxW1D20TEtrxZyd3P+tarPIbks0YKCO5Gv lab key
 
 packages:
   - nginx
